@@ -28,16 +28,19 @@ Whether you're learning SQL, interviewing for a data role, or brushing up your s
 🧪 Highlight Queries
 
 -- 1. Increase salary for IT employees by 10%
+
 UPDATE employees
 SET salary = salary + (salary * 0.1)
 WHERE dept_name = 'IT';
 
 -- 2. Retrieve names of employees who joined after Jan 2021
+
 SELECT first_name, last_name
 FROM employees
 WHERE joining_date > '2021-01-01';
 
 -- 3. Rename department to dept_name
+
 ALTER TABLE employees
 RENAME COLUMN department TO dept_name;
 
