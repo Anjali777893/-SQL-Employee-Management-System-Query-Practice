@@ -26,6 +26,7 @@ Whether you're learning SQL, interviewing for a data role, or brushing up your s
 - ✔️ DAX-like query logic for AOV, profit, etc.
 
 🧪 Highlight Queries
+
 -- 1. Increase salary for IT employees by 10%
 UPDATE employees
 SET salary = salary + (salary * 0.1)
@@ -43,6 +44,7 @@ RENAME COLUMN department TO dept_name;
 
 
 📊 Bonus Idea
+
 Want to add flair? Create a simple Power BI or Excel visualization showing:
 - Department-wise salary totals
 - Employees added per year
@@ -50,8 +52,9 @@ Want to add flair? Create a simple Power BI or Excel visualization showing:
 Add these visuals in the /assets folder and link them in the README!
 
 📌 How to Run
+
 - Clone this repo
-- Open employee_assignment.sql in your SQL IDE
+- Open employee_table creation.sql in your SQL IDE
 - Execute queries section by section
 - Modify and experiment—this project is a sandbox!
 
